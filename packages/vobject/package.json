@@ -1,6 +1,6 @@
 {
   "name": "@yamud/vobject",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The Vion Core: Advanced vCard and iCalendar parser/builder.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -11,6 +11,15 @@
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest"
+  },
+  "homepage": "https://github.com/mgrie/yamud-vion/tree/main/packages/vobject#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgrie/yamud-vion.git",
+    "directory": "packages/vobject"
+  },
+  "bugs": {
+    "url": "https://github.com/mgrie/yamud-vion/issues"
   },
   "keywords": [
     "vcard",
