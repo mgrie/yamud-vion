@@ -1,12 +1,29 @@
 {
   "name": "@yamud/vobject",
   "version": "0.0.1",
-  "main": "index.js",
+  "description": "The Vion Core: Advanced vCard and iCalendar parser/builder.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest"
   },
-  "keywords": [],
+  "keywords": [
+    "vcard",
+    "vlist",
+    "parser",
+    "builder",
+    "vobject",
+    "icalendar",
+    "typescript"
+  ],
   "author": "Marco Grießhammer <mgrie@yamud.de>",
   "license": "MIT",
-  "description": ""
+  "engines": {
+    "node": ">=20.0.0"
+  }
 }
