@@ -1,5 +1,7 @@
 {
   "name": "yamud-vion-monorepo",
+  "author": "Marco Grießhammer <mgrie@yamud.de>",
+  "license": "MIT",
   "private": true,
   "workspaces": [
     "packages/*"
