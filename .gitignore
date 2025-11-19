@@ -1,6 +1,12 @@
 node_modules/
 dist/
 build/
-.env
+
+.idea/
+.vscode/
+*.swp
+*.suo
 .DS_Store
+
+.env
 npm-debug.log*
